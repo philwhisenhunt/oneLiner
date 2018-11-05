@@ -1,0 +1,10 @@
+.container {
+    max-width: 960px;
+  }
+  
+  .lh-condensed { line-height: 1.25; }
+
+  .bg-light{
+      background-color: rgb(158, 158, 158) !important;
+
+  }
