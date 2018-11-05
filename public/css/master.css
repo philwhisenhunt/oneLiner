@@ -8,3 +8,26 @@
       background-color: rgb(158, 158, 158) !important;
 
   }
+
+  .storyholder{
+      padding-top: 1em;
+      border: #f7568c;
+      border-style: solid;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #f7568c;
+    border-color:  #f7568c;
+}
+h2{
+    color: #f7568c;
+}
+
+.checkout-btn{
+margin-bottom: 2em;
+}
+
+.storyholder h2{
+    text-align: center;
+}
