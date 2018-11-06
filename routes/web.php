@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
+
+    // $sentences = DB::table('sentences')->get();
     return view('layouts.index');
+    // return('hello world');
+    // $sentences = ['data', 'here'];
+// return $sentences;  
+
+
+});
+
+Route::post('/', function () {
+
 });

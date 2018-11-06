@@ -1,11 +1,13 @@
 .container {
     max-width: 960px;
+    color: white;
   }
   
   .lh-condensed { line-height: 1.25; }
 
   .bg-light{
       background-color: rgb(158, 158, 158) !important;
+      background-color: rgb(49, 49, 49) !important;
 
   }
 
@@ -13,6 +15,7 @@
       padding-top: 1em;
       border: #f7568c;
       border-style: solid;
+      color: white;
   }
 
   .btn-primary {
@@ -30,4 +33,7 @@ margin-bottom: 2em;
 
 .storyholder h2{
     text-align: center;
+}
+a{
+    color: white;
 }
