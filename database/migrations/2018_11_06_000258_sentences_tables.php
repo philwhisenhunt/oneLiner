@@ -17,7 +17,7 @@ class SentencesTables extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->integer('story_id');
-            $table->string('sentence');
+            $table->text('sentence');
             $table->timestamps();
         });
     }

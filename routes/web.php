@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.index');
+
+    $sentences = DB::table('sentences')->get();
+    // return view('layouts.index');
+
+return $sentences;  
+
+
 });
