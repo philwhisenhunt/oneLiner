@@ -25,12 +25,31 @@
             </div>
 
 
+            <div class="col-md-6 mb-3">
+                <label for="cc-name">Real email</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Valid email address</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+             
+
+
             <hr class="mb-4">
+
+
 
             <h4 class="mb-3">Payment</h4>
 
             <div class="d-block my-3">
               <div class="custom-control custom-radio">
+
+      
+
+               
+
+
                 <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
                 <label class="custom-control-label" for="credit">Credit card</label>
               </div>
@@ -44,6 +63,7 @@
               </div>
             </div>
             <div class="row">
+
               <div class="col-md-6 mb-3">
                 <label for="cc-name">Name on card</label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required>
