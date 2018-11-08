@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function ($sentences) {
 
-    // $sentences = DB::table('sentences')->get();
-    return view('layouts.index');
+    $sentences = DB::table('sentences')->get();
+    return view('layouts.index', compact('sentences'));
     // return('hello world');
     // $sentences = ['data', 'here'];
 // return $sentences;  

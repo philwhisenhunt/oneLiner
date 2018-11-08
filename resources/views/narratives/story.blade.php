@@ -8,4 +8,6 @@
         {{ $sentences->sentence }}
         </span>
 
+        @endforeach
+
 </div>
