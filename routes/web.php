@@ -11,13 +11,14 @@
 |
 */
 
-Route::get('/', function ($sentences) {
+Route::get('/', function () {
 
-    $sentences = DB::table('sentences')->get();
+    $sentences = DB::table('sentences')->get()->first();
+    // var_dump($sentences);
     return view('layouts.index', compact('sentences'));
     // return('hello world');
     // $sentences = ['data', 'here'];
-// return $sentences;  
+    // return $sentences;  
 
 
 });
