@@ -18,9 +18,11 @@
 
   <body>
 
+ 
+
 @yield ('content')
 
-@include ('narratives.story')
+ @include ('narratives.story')
 
 @include ('layouts.footer')
   </body>
