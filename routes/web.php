@@ -22,7 +22,7 @@ Route::get('/', function () {
     // $sentences = ['data', 'here'];
     // return $sentences;  
     $sentences = DB::table('sentences')->get();
-    return view('layouts.index', compact('sentences'));
+    return view('layouts.order', compact('sentences'));
 
 });
 
