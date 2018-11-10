@@ -6,7 +6,6 @@
 
     <div class="container">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
         <a href="/"><h2>OneLiner</h2></a>
         <p class="lead">Pay a small fee to add to the story</div>
 
@@ -23,18 +22,32 @@
               </div>
              
             </div>
+          </div>
 
 
-            <div class="col-md-6 mb-3">
-                <label for="cc-name">Real email</label>
-                <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                <small class="text-muted">Valid email address</small>
-                <div class="invalid-feedback">
-                  Name on card is required
-                </div>
+               <div class="col-md-8 mb-3">
+
+                  <label for="cc-name">Real email</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                  <small class="text-muted">Valid email address</small>
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+
               </div>
-             
 
+                <div class="col-md-4 mb-3">
+
+                    <label for="cc-name">Password</label>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <small class="text-muted">Valid email address</small>
+                    <div class="invalid-feedback">
+                      Name on card is required
+                    </div>
+
+                </div>
+             
+              <div class="col-md-6 mb-3">
 
             <hr class="mb-4">
 
@@ -64,7 +77,7 @@
             </div>
             <div class="row">
 
-              <div class="col-md-6 mb-3">
+              <div class="col-md-8 mb-3">
                 <label for="cc-name">Name on card</label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required>
                 <small class="text-muted">Full name as displayed on card</small>
@@ -72,7 +85,7 @@
                   Name on card is required
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
+              <div class="col-md-8 mb-3">
                 <label for="cc-number">Credit card number</label>
                 <input type="text" class="form-control" id="cc-number" placeholder="" required>
                 <div class="invalid-feedback">
@@ -99,10 +112,10 @@
             <hr class="mb-4">
             <button class="checkout-btn btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
           </form>
-        </div>
-      </div>
-
+        
 
 
 
 @endsection
+  </div>
+
