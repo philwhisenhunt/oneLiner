@@ -13,13 +13,16 @@
 
 Route::get('/', function () {
 
-    $sentences = DB::table('sentences')->get()->first();
+    // $sentences = DB::table('sentences')->get()->first();
+    
+    // $sentences = DB::all();
     // var_dump($sentences);
-    return view('layouts.index', ['sentences'=>$sentences] );
+    // return view('layouts.index', ['sentences' => $sentences] );
     // return('hello world');
     // $sentences = ['data', 'here'];
     // return $sentences;  
-
+    $sentences = DB::table('sentences')->get();
+    return view('layouts.index', compact('sentences'));
 
 });
 
