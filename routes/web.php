@@ -15,7 +15,7 @@ Route::get('/', function () {
 
     $sentences = DB::table('sentences')->get()->first();
     // var_dump($sentences);
-    return view('layouts.index', compact('sentences'));
+    return view('layouts.index', ['sentences'=>$sentences] );
     // return('hello world');
     // $sentences = ['data', 'here'];
     // return $sentences;  
