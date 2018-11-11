@@ -4,15 +4,11 @@
 
  <body class="bg-light">
 
-    <div class="container">
-      <div class="py-5 text-center">
-        <a href="/"><h2>OneLiner</h2></a>
-        <p class="lead">Pay a small fee to add to the story</div>
-
-
         <div class="col-md-12 order-md-1">
           <h4 class="mb-3">Write your sentence here</h4>
-          <form class="needs-validation" novalidate method="POST">
+          <form class="needs-validation" novalidate method="POST" action="/">
+
+          {{ csrf_field() }}
             <div class="row">
               <div class="col-md-12 mb-3">
                 <input type="text" class="form-control" id="sentence" name="sentence" placeholder="i.e. The frog walked down the road" value="" required>
@@ -23,6 +19,8 @@
              
             </div>
           </div>
+
+<!--
 
 
                <div class="col-md-8 mb-3">
@@ -110,10 +108,17 @@
               </div>
             </div>
             <hr class="mb-4">
+
+            -->
             <button class="checkout-btn btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
           </form>
-  </div>
-           @include ('narratives.story')
-        
 
+          
+          
+  </div>
+
+    
   @endsection
+
+  
+ 

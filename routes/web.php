@@ -27,11 +27,19 @@ Route::get('/', function () {
 });
 
 Route::post('/', function () {
+    return request()->all();
 
 });
 
 Route::get('/giant', function() {
-    
+
     $sentences = DB::table('sentences')->get();
     return view('layouts.giant', compact('sentences'));
 });
+
+
+
+// Route::get('/story', function(){
+//     $sentences = DB::table('sentences')->get();
+//     return view('narratives.story', compact('sentences'));
+// });

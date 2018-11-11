@@ -1,13 +1,10 @@
-<div class="storyholder col-md-12 mb-3">
+@extends('layouts.master')
 
-<h2>The Story so Far</h2>
-    <p>
-        @foreach ($sentences as $sentence)
+    @section('content')
+<a href="/">
+<p>Click here to add to the story.</p>
+</a>
 
-            <span>
-            {{ $sentence->sentence }}
-            </span>
+    @endsection
 
-        @endforeach
-    </p>
-</div>
+
