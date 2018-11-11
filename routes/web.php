@@ -27,8 +27,13 @@ Route::get('/', function () {
 });
 
 Route::post('/', function () {
-    return request()->all();
 
+    $sentence = new Sentence();
+    $sentence->sentence = request('sentence');
+
+    $sentence->save();
+
+    return redirect('/');
 });
 
 Route::get('/giant', function() {
