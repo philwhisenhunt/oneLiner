@@ -29,3 +29,9 @@ Route::get('/', function () {
 Route::post('/', function () {
 
 });
+
+Route::get('/giant', function() {
+    
+    $sentences = DB::table('sentences')->get();
+    return view('layouts.giant', compact('sentences'));
+});
