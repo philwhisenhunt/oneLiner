@@ -80,3 +80,20 @@ a.active{
     /* margin-right: 0em !important; */
     float: right;
 }
+
+.checkout{
+    text-align: center;
+}
+
+.checkout-btn{
+
+}
+
+.footer-space{
+/* background-color: white; */
+float: right;
+}
+
+.continue-btn{
+    text-align: center;
+}

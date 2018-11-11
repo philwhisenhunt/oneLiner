@@ -22,7 +22,8 @@
               
           <div class="py-5 text-center">
               <a href="/"><h2>OneLiner</h2></a>
-              <p class="lead">Pay a small fee to add to the story</p>
+              <!-- <p class="lead">Pay a small fee to add to the story</p> -->
+              <p class="lead">Collaborate with strangers one sentence at a time.</p>
 
                     <!-- <div class="linker">
                       <a href="/story"><p class="lead">View the story so far.</p></a>
@@ -30,7 +31,7 @@
           </div>
             @yield ('content')
 
-            @include ('layouts.footer')
+        
         </div>
 
 
@@ -39,6 +40,8 @@
 @include ('narratives.storyholder')
 
 </div>
-
+  <div class="footer-space col-md-12">
+      @include ('layouts.footer')
+  </div>
     </body>
   </html>
