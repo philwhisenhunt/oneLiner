@@ -112,6 +112,8 @@
             <hr class="mb-4">
             <button class="checkout-btn btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
           </form>
-        
   </div>
+           @include ('narratives.story')
+        
+
   @endsection
