@@ -16,14 +16,29 @@
     <link href="/css/master.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="bg-light">
+    <div class="halfsize col-md-6">
+        <div class="container">
+              
+          <div class="py-5 text-center">
+              <a href="/"><h2>OneLiner</h2></a>
+              <p class="lead">Pay a small fee to add to the story</p>
 
- 
+                    <!-- <div class="linker">
+                      <a href="/story"><p class="lead">View the story so far.</p></a>
+                    </div> -->
+          </div>
+            @yield ('content')
 
-@yield ('content')
+            @include ('layouts.footer')
+        </div>
 
 
+      </div>
+<div class="halfsize-2 col-md-6">
+@include ('narratives.storyholder')
 
-@include ('layouts.footer')
-  </body>
+</div>
+
+    </body>
   </html>

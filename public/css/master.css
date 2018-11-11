@@ -12,10 +12,19 @@
   }
 
   .storyholder{
-      padding-top: 1em;
+      /* padding-top: 1em; */
+      padding:1em;
+      padding-bottom: 2em;
       border: #f7568c;
       border-style: solid;
       color: white;
+      float: right;
+      /* margin-top: 4em; */
+  }
+
+  .storyholder p{
+      /* margin: .9em;
+      padding: 1em; */
   }
 
   .btn-primary {
@@ -33,7 +42,6 @@ margin-bottom: 2em;
 
 .storyholder h2{
     text-align: center;
-
 }
 a{
     color: white;
@@ -42,7 +50,33 @@ a{
 /* .btn-block{
     width: 80%;
 } */
-
+ 
 .giant-type{
     font-size: 5em;
+}
+a{
+    color: #fff;
+}
+a.active{
+    color: azure !important;
+}
+
+.linker a:hover {
+    color: white;
+   
+}
+
+.linker p {
+    /* border-style: solid; */
+    color:#f7568c;
+    font-size: .8em;
+}
+
+.halfsize{
+    float:left;
+}
+
+.halfsize-2{
+    /* margin-right: 0em !important; */
+    float: right;
 }

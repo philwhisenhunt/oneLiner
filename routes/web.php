@@ -28,10 +28,23 @@ Route::get('/', function () {
 
 Route::post('/', function () {
 
+    $sentence = new Sentence();
+    $sentence->sentence = request('sentence');
+
+    $sentence->save();
+
+    return redirect('/');
 });
 
 Route::get('/giant', function() {
-    
+
     $sentences = DB::table('sentences')->get();
     return view('layouts.giant', compact('sentences'));
 });
+
+
+
+// Route::get('/story', function(){
+//     $sentences = DB::table('sentences')->get();
+//     return view('narratives.story', compact('sentences'));
+// });
