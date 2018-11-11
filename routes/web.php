@@ -11,30 +11,27 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'SentencesController@home');
 
-    // $sentences = DB::table('sentences')->get()->first();
-    
-    // $sentences = DB::all();
-    // var_dump($sentences);
-    // return view('layouts.index', ['sentences' => $sentences] );
-    // return('hello world');
-    // $sentences = ['data', 'here'];
-    // return $sentences;  
-    $sentences = DB::table('sentences')->get();
-    return view('layouts.order', compact('sentences'));
+// Route::get('/', function () {
 
-});
+ 
+//     $sentences = DB::table('sentences')->get();
+//     return view('layouts.order', compact('sentences'));
 
-Route::post('/', function () {
+// });
 
-    $sentence = new Sentence();
-    $sentence->sentence = request('sentence');
+// Route::post('/', function () {
 
-    $sentence->save();
+//     $sentence = new Sentence();
+//     $sentence->sentence = request('sentence');
 
-    return redirect('/');
-});
+//     $sentence->save();
+
+//     return redirect('/');
+// });
+
+Route::post('/', 'SentencesController@store');
 
 Route::get('/giant', function() {
 
