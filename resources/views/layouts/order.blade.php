@@ -110,7 +110,10 @@
             <hr class="mb-4">
 
             -->
-            <button class="checkout-btn btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+
+            <div class="continue-btn">
+              <button class="checkout-btn btn btn-primary btn-md" type="submit">Continue to checkout</button>
+            </div>
           </form>
 
           
