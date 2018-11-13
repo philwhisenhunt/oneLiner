@@ -17,29 +17,32 @@
   </head>
 
   <body class="bg-light">
-    <div class="halfsize col-md-6">
-        <div class="container">
-              
-          <div class="py-5 text-center">
+  <div class="container">
+        <div class="py-5 text-center">
               <a href="/"><h2>OneLiner</h2></a>
-              <!-- <p class="lead">Pay a small fee to add to the story</p> -->
-              <p class="lead">Collaborate with strangers one sentence at a time.</p>
 
-                    <!-- <div class="linker">
-                      <a href="/story"><p class="lead">View the story so far.</p></a>
-                    </div> -->
-          </div>
+        <p class="lead">Collaborate with strangers one sentence at a time.</p>
+        </div>
+      </div>
+
+    <div class="halfsize col-md-6">
+        
+              
+        
             @yield ('content')
 
         
         </div>
 
+         <div class="halfsize-2 col-md-6">
+            @yield ('second-content')
+           </div>
+
+
+
 
       </div>
-<!-- <div class="halfsize-2 col-md-6">
-@include ('narratives.storyholder')
 
-</div> -->
   <div class="footer-space col-md-12">
       @include ('layouts.footer')
   </div>

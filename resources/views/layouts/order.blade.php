@@ -2,7 +2,7 @@
 
    @section ('content')
 
- <body class="bg-light">
+ 
 
         <div class="col-md-12 order-md-1">
           <h4 class="mb-3">Write your sentence here</h4>
@@ -24,7 +24,7 @@
                 <div class="col-md-12 mb-3">
                   <input type="text" class="form-control" id="email" name="email" placeholder="Valid email address" required>
                     <br>
-                  <input type="text" class="form-control" id="password-holder" name="user-password" required>
+                  <input type="text" class="form-control" id="password-holder" name="user-password" placeholder="Password"required>
                 </div>
               </div>
             </form>
@@ -133,10 +133,12 @@
     
   @endsection
 
-  <div class="halfsize-2 col-md-6">
-@include ('narratives.storyholder')
+ 
+    @section ('second-content')
+      @include ('narratives.storyholder')
+    @endsection
 
-</div>
+
 
   
  
