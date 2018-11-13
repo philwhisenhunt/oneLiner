@@ -117,3 +117,17 @@ float: right;
 h4{
     color: white;
 }
+
+h2{
+    font-size: 3.5em;
+}
+
+.btn-primary:hover{
+    background-color: #f34982;
+    border-color:  #f34982;
+}
+
+h2 a:hover{
+    text-decoration: beige !important;
+
+}
