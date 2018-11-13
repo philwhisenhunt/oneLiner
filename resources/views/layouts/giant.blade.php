@@ -13,6 +13,7 @@
         
 
         <p>
+            <!-- Decrease size for each sentence? -->
                 @foreach ($sentences as $sentence)
 
                     <span>
