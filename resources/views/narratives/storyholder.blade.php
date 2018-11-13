@@ -2,6 +2,8 @@
 
 <h2 class="py-5 text-center">The Story so Far</h2>
     <p class="storyholder">
+
+    <!-- sort by story with an if else statement here? -->
         @foreach ($sentences as $sentence)
 
             <span>
@@ -10,11 +12,11 @@
 
         @endforeach
     </p>
-<div class="large-link btn-lg">
-    <a href="/giant">
-    <button class="checkout-btn btn btn-primary btn-md" type="link">View Extra Large</button>
+    <div class="large-link btn-lg">
+        <a href="/giant">
+        <button class="checkout-btn btn btn-primary btn-md" type="link">View Extra Large</button>
 
-    
-    </a>
+        
+        </a>
     </div>
 </div>
