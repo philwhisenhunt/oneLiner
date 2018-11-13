@@ -123,5 +123,10 @@
     
   @endsection
 
+  <div class="halfsize-2 col-md-6">
+@include ('narratives.storyholder')
+
+</div>
+
   
  
