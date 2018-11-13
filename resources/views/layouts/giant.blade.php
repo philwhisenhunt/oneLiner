@@ -1,26 +1,28 @@
 
 @extends ('layouts.master')
 
-   @section ('content')
+   @section ('giant-content')
+<!-- Moved content outside of this to make it break the halfway point -->
+
+    @endsection
 
    <body class="bg-light">
 
-        <div class="container">
-            <div class="giant-type">
-                
+<div class="container">
+    <div class="giant-type">
+        
 
-                <p>
-                        @foreach ($sentences as $sentence)
+        <p>
+                @foreach ($sentences as $sentence)
 
-                            <span>
-                            {{ $sentence->sentence }}
-                            </span>
+                    <span>
+                    {{ $sentence->sentence }}
+                    </span>
 
-                        @endforeach
-                    </p>
+                @endforeach
+            </p>
 
 
-            </div>
-        </div>
-    </body>
-    @endsection
+    </div>
+</div>
+</body>

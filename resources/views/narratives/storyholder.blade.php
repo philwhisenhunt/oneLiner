@@ -10,4 +10,11 @@
 
         @endforeach
     </p>
+<div class="large-link btn-lg">
+    <a href="/giant">
+    <button class="checkout-btn btn btn-primary btn-md" type="link">View Extra Large</button>
+
+    
+    </a>
+    </div>
 </div>

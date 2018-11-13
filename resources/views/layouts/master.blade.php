@@ -36,10 +36,10 @@
 
 
       </div>
-<div class="halfsize-2 col-md-6">
+<!-- <div class="halfsize-2 col-md-6">
 @include ('narratives.storyholder')
 
-</div>
+</div> -->
   <div class="footer-space col-md-12">
       @include ('layouts.footer')
   </div>

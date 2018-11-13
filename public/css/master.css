@@ -53,6 +53,10 @@ a{
  
 .giant-type{
     font-size: 5em;
+    /* letter-spacing: 2em; */
+    /* line-height: .2em; */
+    line-height: .9em;
+
 }
 a{
     color: #fff;
@@ -95,5 +99,8 @@ float: right;
 }
 
 .continue-btn{
+    text-align: center;
+}
+.large-link{
     text-align: center;
 }
