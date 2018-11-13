@@ -23,8 +23,10 @@
               <div class="row">
                 <div class="col-md-12 mb-3">
                   <input type="text" class="form-control" id="email" name="email" placeholder="Valid email address" required>
-                    <br>
-                  <input type="text" class="form-control" id="password-holder" name="user-password" placeholder="Password"required>
+                  <div class="col-md-12 mb-3">
+                  </div>
+                    <input type="text" class="form-control" id="password-holder" name="user-password" placeholder="Password"required>
+                  
                 </div>
               </div>
             </form>
