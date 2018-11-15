@@ -45,3 +45,6 @@ Route::get('/giant', function() {
 //     $sentences = DB::table('sentences')->get();
 //     return view('narratives.story', compact('sentences'));
 // });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
