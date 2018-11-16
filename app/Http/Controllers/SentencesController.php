@@ -26,6 +26,7 @@ class SentencesController extends Controller
         $sentence->sentence = request('sentence');
         $sentence->user_id = 1;
         $sentence->story_id = 1;
+        
         $sentence->save();
         return redirect('/');
 
