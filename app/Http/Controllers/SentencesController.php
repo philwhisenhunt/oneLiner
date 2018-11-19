@@ -28,7 +28,7 @@ class SentencesController extends Controller
         $sentence->story_id = 1;
         
         $sentence->save();
-        return redirect('/');
+        return redirect('/giant');
 
     }
 

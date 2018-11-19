@@ -124,8 +124,11 @@
             -->
 
             <div class="continue-btn">
-              <button class="checkout-btn btn btn-primary btn-md" type="submit">Continue to checkout</button>
+              <button class="checkout-btn btn btn-primary btn-md" type="submit" action="/">Submit</button>
             </div>
+
+
+            
           </form>
 
           
